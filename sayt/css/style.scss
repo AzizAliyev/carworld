@@ -1,0 +1,68 @@
+.all{
+    background: black;
+    padding: 25px;
+    i{
+        color: white;
+        margin: 0 12px;
+    
+        &:hover{
+            color: red;
+        }
+    }
+    a{
+        color: #848484;
+    }
+    .right{
+        .a1{
+            background: red;
+            padding: 7px 9px;
+            border-radius: 5px;
+            color: #848484;
+        }
+    }
+}
+
+
+.dropdown{
+    margin:0 5px;
+    display: inline-block;
+    position: relative;
+    &:hover{
+        .drop-content{
+            visibility: visible;
+            top: 140%;
+        }
+    }
+   .drop-content{
+     
+       position: absolute;
+       left: -100px;
+       top: 180%;
+       width: 80px;
+       visibility: hidden;
+       transition: 0.5s;
+a{
+    display: block;
+  border: none;
+  color: black;
+  text-decoration: none; 
+
+}
+   }
+   .drop-content2{
+       
+       width: 600px;
+       
+       padding: 30px 0;
+       .col-lg-2{
+           margin: 0 20px;
+           p{
+               font-size: 10px;
+               font-weight: bold;
+           }
+       }
+   }
+
+}
+
+
